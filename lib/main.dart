@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
     controller: _username,
     validationDebounce: Duration(milliseconds: 500),
     validator:Auth().isValidPasscode,
-    hintText: 'Enter the Passcode',
+    hintText: 'Enter Username',
     ),
     )),
     )));
